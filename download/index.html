@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>AI Scribe Downloads | Anbon Systems</title>
 
     <style>
@@ -14,8 +15,8 @@
         }
 
         .container {
-            max-width: 700px;
-            margin: 80px auto;
+            max-width: 760px;
+            margin: 70px auto;
             background: white;
             padding: 40px;
             border-radius: 12px;
@@ -24,17 +25,31 @@
         }
 
         h1 {
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
 
-        p {
-            color: #5f6b7a;
-            line-height: 1.6;
+        .subtitle {
+            color: #667085;
+            margin-bottom: 35px;
+        }
+
+        .app {
+            border-top: 1px solid #e5e7eb;
+            padding: 28px 0;
+        }
+
+        .app h2 {
+            margin: 0 0 8px 0;
+        }
+
+        .app p {
+            color: #667085;
+            line-height: 1.5;
         }
 
         .download-button {
             display: inline-block;
-            margin-top: 24px;
+            margin-top: 12px;
             padding: 14px 28px;
             background: #1677ff;
             color: white;
@@ -49,21 +64,33 @@
         }
 
         .note {
-            margin-top: 24px;
+            margin-top: 28px;
             font-size: 13px;
             color: #777;
+            line-height: 1.5;
         }
     </style>
 </head>
 
 <body>
 
-    <div class="container">
+<div class="container">
 
-        <h1>AI Scribe Dictation</h1>
+    <h1>Anbon AI Scribe</h1>
+
+    <p class="subtitle">
+        Windows applications for physician testing.
+    </p>
+
+
+    <!-- Dictation App -->
+    <div class="app">
+
+        <h2>AI Scribe Dictation</h2>
 
         <p>
-            AI-powered medical dictation for Windows.
+            Quick medical dictation and AI note generation from anywhere
+            in your EMR.
         </p>
 
         <a class="download-button"
@@ -71,12 +98,34 @@
             Install AI Scribe Dictation
         </a>
 
-        <p class="note">
-            Windows may display a security warning during installation.
-            Only install software downloaded directly from Anbon Systems.
+    </div>
+
+
+    <!-- Main AI Scribe App -->
+    <div class="app">
+
+        <h2>AI Scribe</h2>
+
+        <p>
+            Full AI Scribe desktop application for recording encounters,
+            transcription and clinical note generation.
         </p>
 
+        <a class="download-button"
+           href="/download/scribe/AIScribe_WPF.application">
+            Install AI Scribe
+        </a>
+
     </div>
+
+
+    <p class="note">
+        Windows may display a security warning during installation while
+        these applications are in testing. Only install software downloaded
+        directly from Anbon Systems.
+    </p>
+
+</div>
 
 </body>
 </html>

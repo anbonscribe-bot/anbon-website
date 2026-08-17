@@ -1,0 +1,10 @@
+{
+  "ApiSettings": {
+    "BaseUrl": "https://anbonscribeapilinux-ecg5degkgjbfbdax.canadacentral-01.azurewebsites.net"
+  }
+}
+
+        //Azure web Linus "https://anbonscribeapilinux-ecg5degkgjbfbdax.canadacentral-01.azurewebsites.net"
+        //Test Server Windows "http://10.0.0.232:5000"
+        //Test Server Ubuntu = "http://10.0.0.38:5000"
+        //Visual Studio "https://localhost:7299"
