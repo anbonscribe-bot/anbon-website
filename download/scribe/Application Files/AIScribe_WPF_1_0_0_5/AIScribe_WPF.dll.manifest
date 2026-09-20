@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="AIScribe_WPF.exe" version="1.0.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="AIScribe_WPF.exe" version="1.0.0.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="Assets\AppIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -63,31 +63,31 @@
       <dsig:DigestValue>UaWafMmISKldlYtxB40dNHtClGQGP3tOKl+tvYtSNws=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="AIScribe_WPF.dll" size="585728">
+  <file name="AIScribe_WPF.dll" size="707584">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>wUHs6liDe7r+TzJJxRe8sz+Yg9+/99YGsSTrx5jyyMQ=</dsig:DigestValue>
+      <dsig:DigestValue>pt1EDjgDod7xhwTZmWTwEupJiCiMjcNFErJ0DgWzDg4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="AIScribe_WPF.exe" size="264704">
+  <file name="AIScribe_WPF.exe" size="265216">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>6LY8Er/OrUt+HNUs6xJK+IrzLLtv1lWmMCZzXoaJLtU=</dsig:DigestValue>
+      <dsig:DigestValue>ySi4m7oT5hd8N2Tf/dOOejhZ908RF2HxX/OuBJzy3ds=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="AIScribe_WPF.runtimeconfig.json" size="516">
+  <file name="AIScribe_WPF.runtimeconfig.json" size="444">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>BZF7QJ1ZrzG8jTAhvAYwKgwhx9BbRJYD1syfAwGitmw=</dsig:DigestValue>
+      <dsig:DigestValue>eiEVfxPymSe+/kdlmQ1s/gpt0uI8TWF1iHEuzK0OYx4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="appsettings.json" size="400">
